@@ -19,69 +19,88 @@
         <img src="./assets/images/image-omelette.jpeg" alt="omelettl" class="banner-img">
 
         <!-- titile-->
-          <h1>Simple Omelette Recipe</h1>
-          <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-          </p>
+        <h1>Simple Omelette Recipe</h1>
+        <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
 
-          <!--preparation-time-list-->
-          <div class="preparation-time-list">
-            <p> Preparation time</p>
-            <li> Total: Approximately 10 minutes</li>
-            <li> Preparation: 5 minutes</li>
-            <li> Cooking: 5 minutes</li>
-          </div>
-          <div class="ingredients-list-area">
-            <p>Ingredients</p>
-            <li> 2-3 large eggs</li>
-            <li> Salt, to taste</li>
-            <li> Pepper, to taste</li>
-            <li> 1 tablespoon of butter or oil/li>
-            <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
-          </div>
+        <!--preparation-time-list-->
+        <div class="preparation-time">
+          <p> Preparation time</p>
+          <li> Total: Approximately 10 minutes</li>
+          <li> Preparation: 5 minutes</li>
+          <li> Cooking: 5 minutes</li>
         </div>
-      </section>
 
-      <!--instructions-area-->
-      <section class="unstructions-area">
-        <p> Instructions</p>
-        <ol>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-          You can add a tablespoon of water or milk for a fluffier texture.</ol>
-        <ol>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</ol>
-        <ol> Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
-          the eggs evenly coat the surface.</ol>
-        <ol> Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the
-          middle, sprinkle your chosen fillings over one half of the omelette.</ol>
-        <ol> Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
-          fillings. Let it cook for another minute, then slide it onto a plate.</ol>
-        <ol> Enjoy: Serve hot, with additional salt and pepper if needed.</ol>
-
+        <!--ingredients-list-->
+        <div class="ingredients">
+          <p>Ingredients</p>
+          <li> 2-3 large eggs</li>
+          <li> Salt, to taste</li>
+          <li> Pepper, to taste</li>
+          <li> 1 tablespoon of butter or oil</li>
+          <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </div>
+        <hr>
+        <!--instructions-area-->
+        <div class="instrunstructions">
+          <p> Instructions</p>
+          <ol>
+            <li>
+              <span>Beat the eggs:</span>
+              In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+              You can add a tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li>
+              <span>Heat the pan:</span>
+              Place a non-stick frying pan over medium heat and add butter or oil.
+            </li>
+            <li>
+              <span>Cook the omelette:</span>
+              Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+              the eggs evenly coat the surface.
+            </li>
+            <li>
+              <span>Add fillings (optional):</span>
+              When the eggs begin to set at the edges but are still slightly runny in the
+              middle, sprinkle your chosen fillings over one half of the omelette.
+            </li>
+            <li>
+              <span>Fold and serve:</span>
+              Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
+              fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+            <li>
+              <span>Enjoy:</span>
+              Serve hot, with additional salt and pepper if needed.
+            </li>
+          </ol>
+        </div>
+        <hr>
+        <!--nutrition-area-->
+        <div class="nutrition">
+          <h1>Nutrition</h1>
+          <p> The table below shows nutritional values per serving without the additional fillings.</p>
+          <ul class="nutrition-list">
+            <li>
+              <span class="lable-titile">Calories</span>
+              <span class="lable-unit">277kcal</span>
+            </li>
+            <li>
+              <span class="lable-titile">Carbs</span>
+              <span class="lable-unit"> 0g</span>
+            </li>
+            <li>
+              <span class="lable-titile"> Protein</span>
+              <span class="lable-unit"> 20g</span>
+            </li>
+            <li>
+              <span class="lable-titile"> Fat</span>
+              <span class="lable-unit"> 22g</span>
+            </li>
+          </ul>
+        </div>  
       </section>
-      <!--nutrition-area-->
-      <section class="nutrition-area">
-        <p>Nutrition</p>
-        <p> The table below shows nutritional values per serving without the additional fillings.</p>
-        <ul class="nutrition-list">
-          <li>
-            <span class="lable">Calories</span>
-            <span class="lable">277kcal</span>
-          </li>
-          <li>
-            <span class="lable">Carbs</span>
-            <span class="lable"> 0g</span>
-          </li>
-          <li>
-            <span class="lable"> Protein</span>
-            <span class="lable"> 20g</span>
-          </li>
-          <li>
-            <span class="lable"> Fat</span>
-            <span class="lable"> 22g</span>
-          </li>
-        </ul>
-      </section>
-      </section>
-
     </div>
   </div>
 </body>
@@ -97,23 +116,140 @@
 
   body {
     font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+    font-size: 16px;
     background-color: #f3e5d7;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
+    color: #5f574e;
   }
 
   .container {
     max-width: 1000px;
     width: 100%;
     height: auto;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
   }
 
   .wrapper {
-    background-color: rgb(255, 255, 255);
     border-radius: 24px;
+  }
+
+  .main {
+    margin: 36px;
+  }
+
+  .banner-img {
+    display: block;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  p {
+    line-height: 1.5rem;
+    padding-bottom: 16px;
+    color: #31302E;
+  }
+
+  .preparation-time {
+    width: 100%;
+    padding: 20px;
+    background-color: #E9D6E2;
+    border-radius: 4px;
+  }
+
+  .preparation-time p {
+    font-weight: 600;
+    color: #79314D;
+    line-height: 1.5rem;
+  }
+
+  .preparation-time li {
+    line-height: 1.5rem;
+  }
+
+  .ingredients li ::marker {
+    color: #744838;
+    font-weight: 600;
+  }
+
+  .ingredients p {
+    color: #744838;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .ingredients li {
+    line-height: 1.5rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #C4C4C4;
+    margin: 20px auto;
+  }
+
+  .instrunstructions p {
+    color: #744838;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .instrunstructions ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+  }
+
+  .instrunstructions li {
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .instrunstructions ol ::marker {
+    color: #744838;
+    font-weight: 600;
+  }
+
+  .instrunstructions span {
+    font-weight: 600;
+  }
+
+  .nutrition h1 {
+    color: #744838;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .nutrition p {
+    padding-bottom: 32px;
+  }
+
+  .nutrition li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #C4C4C4;
+  }
+
+  .lable-unit {
+    color: #744838;
+    font-weight: 600;
   }
 </style>
 
